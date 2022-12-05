@@ -28,7 +28,7 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 1024px) {
+  @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
   }
@@ -140,6 +140,11 @@ body #header.header-top .navbar a, body #header.header-top .navbar a:focus{
   #header h1 {
     font-size: 36px;
   }
+  
+  body::before {
+    background: #fff url(../img/bg-mobile.jpg) top right no-repeat !important;
+    background-size: contain !important;
+}
 
   #header h2 {
     font-size: 20px;
