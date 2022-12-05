@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #fff;
   color: #000;
   position: relative;
   background: transparent;
@@ -1050,6 +1050,19 @@ section .container {
 }
 
 @media (max-width: 992px) {
+  
+  #header .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-start;
+}
+  #header .social-links a {
+    font-size: 30px;
+    width: 45px;
+    height: auto;
+}
+  
+  
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
