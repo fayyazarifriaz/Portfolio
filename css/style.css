@@ -87,10 +87,6 @@ body #header.header-top h1 a {
   color: #fff
 }
 
-body #header.header-top .navbar a, body #header.header-top .navbar a:focus{
-  color: #fff;
-}
-
 #header h2 span {
   color:  #0067db;
   border-bottom: 2px solid #0067db;
